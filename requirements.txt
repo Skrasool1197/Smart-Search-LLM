@@ -11,3 +11,6 @@ astrapy
 langchain_astradb
 langchain-nvidia-ai-endpoints
 lxml
+beautifulsoup4
+bs4
+chromadb
