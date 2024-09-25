@@ -42,6 +42,14 @@ st.set_page_config(page_title='Smart Course Search - Analytics Vidhya', layout="
 st.title('Find the Perfect Free Course! 🎓')
 st.caption('I am here to suggest you the best free courses on Analytics Vidhya!')
 
+# sidebar
+with st.sidebar:
+    st.title('How to Use?')
+    st.caption('Welcome to the Free Course Finder!')
+    st.write('- Click the start session button to begin the session.')
+    st.write('- Ask queries related to courses.')
+    st.write('- Click the end session button to end the session.')
+
 # Prompt template for LLM
 prompt_template = '''
 You are an intelligent assistant designed to help users find the most relevant free courses from Analytics Vidhya. Your task is to search through the provided course context and return concise, accurate, and relevant course or courses suggestions. 
